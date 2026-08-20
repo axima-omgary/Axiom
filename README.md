@@ -30,7 +30,7 @@ The project is designed with a modular structure so that new reconnaissance modu
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/axima-omgary/Axiom
 cd Axiom
 ```
 
