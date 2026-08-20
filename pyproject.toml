@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Axiom"
+version = "0.2.0"
+description = "A simple Python OSINT-inspired username checker"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "requests"
+]
+
+[project.scripts]
+Axiom = "Axiom_pkg.main:main"
+
+[tool.setuptools.package-data]
+Axiom_pkg = ["username_search/sites.json"]
